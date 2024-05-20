@@ -1,0 +1,48 @@
+/* Button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Input styles */
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #4CAF50;
+}
+
+input[type="text"]:not(:placeholder-shown) {
+  color: #4CAF50;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: bold;
+}
